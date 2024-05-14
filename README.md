@@ -27,8 +27,30 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
+```
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Using Python's SimpleHTTPServer Module</title>
+ <style>
+ #rectangle {
+ height: 50px;
+ width: 100px;
+ background-color: #00f28f;
+ }
+ </style>
+</head>
+<body>
+ <h2>Rectangle served by SimpleHTTPServer</h2>
+ <div id="rectangle"></div>
+</body>
+</html>
 
+
+```
 ## OUTPUT:
+![Screenshot 2024-05-14 084019](https://github.com/ARAVIND-23/webserver/assets/138970182/ab3844e6-4e02-41ab-aa55-f7e91e175d8f)
+
 
 ## RESULT:
 The program is executed succesfully
